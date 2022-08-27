@@ -1,0 +1,21 @@
+.list ul {
+  overflow: hidden;
+  margin-top: 12px;
+  border: 1px solid gray;
+  border-bottom: none;
+  border-radius: 3px;
+}
+.list .todo-enter-active {
+  animation: todoAni 0.5s linear;
+}
+.list .todo-leave-active {
+  animation: todoAni 0.5s linear reverse;
+}
+@keyframes todoAni {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}

@@ -1,0 +1,41 @@
+.item li {
+  position: relative;
+  padding: 0 10px;
+  list-style: none;
+  line-height: 35px;
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #808080;
+}
+.item li:hover {
+  background-color: #eeee;
+}
+.item li:hover .btn {
+  display: block;
+}
+.item .editText {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  transform: translate(0, -50%);
+  width: 50%;
+}
+.item .btn {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+.item button {
+  width: 55px;
+  height: 25px;
+  background-color: #e64343;
+  color: #ffff;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+}
+.item button:nth-child(1) {
+  margin-right: 5px;
+  background-color: #07a007;
+}

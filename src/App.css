@@ -1,0 +1,31 @@
+/* basic style */
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.box {
+  margin: 10px auto;
+  padding: 10px;
+  width: 550px;
+  min-height: 130px;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+input {
+  padding: 6px;
+  width: 100%;
+  height: 25px;
+  line-height: 40px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  background-color: #e64343;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
